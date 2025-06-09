@@ -1,0 +1,96 @@
+.container-form {
+    h1 {
+        font-size: 2.8rem;
+        color: var(--text-primary);
+        text-align: center;
+    }
+
+    .grid {
+        .row {
+            .form-filter,
+            .form-search {
+                margin: 39px 0;
+                label {
+                    font-size: 1.3rem;
+                }
+                .form-control,
+                .tom-select {
+                    font-size: 1.6rem;
+                }
+
+                .focus .ts-control {
+                    border-color: #dee2e6;
+                    box-shadow: none;
+                }
+            }
+            .button-filter {
+                font-size: 1.4rem;
+                color: var(--white);
+                border: none;
+                background: var(--primary);
+                max-width: 50px;
+                width: 100%;
+            }
+
+            .table {
+                thead {
+                    th {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                .table-body {
+                    .img-product {
+                        height: 80px;
+                        mix-blend-mode: multiply;
+                    }
+
+                    td {
+                        font-size: 1.6rem;
+                    }
+
+                    .btn-detail {
+                        font-size: 1.6rem;
+                        font-weight: 500;
+                        color: var(--white);
+                        background: var(--primary);
+                    }
+                }
+            }
+        }
+    }
+
+    .paginate {
+        nav {
+            div {
+                p {
+                    margin-right: 10px;
+                }
+            }
+
+            .pagination {
+                .page-item {
+                    .page-link {
+                        padding: 4px 8px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .page-item.active > .page-link {
+                    background: var(--primary);
+                }
+            }
+        }
+    }
+
+    .link-product {
+        font-size: 1.8rem;
+        color: var(--text-primary);
+        text-decoration: underline !important;
+        margin-left: 5px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: #4273ae;
+        }
+    }
+}

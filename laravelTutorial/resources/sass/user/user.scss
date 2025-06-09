@@ -1,0 +1,152 @@
+.container-user {
+    .row {
+        .card {
+            .card-body {
+                h5 {
+                    font-size: 1.6rem;
+                }
+
+                .text-muted {
+                    font-size: 1.4rem;
+                }
+
+                button {
+                    font-size: 1.3rem;
+                }
+
+                .btn-edit {
+                    background: var(--primary);
+                    color: var(--white);
+                    transition: all 0.3s ease-in-out;
+                    border: none;
+
+                    &:hover {
+                        box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+                    }
+                }
+
+                .btn-outline-message {
+                    border: 1px solid var(--text-primary);
+                    color: var(--text-primary);
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background: var(--primary);
+                        color: var(--white);
+                        border: 1px solid var(--text-primary);
+                    }
+                }
+
+                .label {
+                    font-size: 1.5rem;
+                }
+
+                .list-group {
+                    .list-group-item {
+                        i {
+                            font-size: 2rem;
+                        }
+
+                        .progress {
+                            width: 80%;
+                        }
+
+                        p {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+        .card-product {
+            padding: 10px;
+            max-height: 408px;
+            overflow-y: scroll;
+
+            .item-roadmap {
+                padding: 5px 0;
+                align-items: center;
+                text-align: center;
+                border-bottom: 1px solid #e0e0e0;
+                transition: background-color 0.6s ease-in-out;
+
+                &:hover {
+                    background-color: #f5f5f5;
+                }
+
+                div {
+                    font-size: 1.4rem;
+
+                    img {
+                        height: 50px;
+                        mix-blend-mode: multiply;
+                    }
+                }
+            }
+
+            .item-roadmap:last-child {
+                border-bottom: none;
+            }
+        }
+
+        .card-body,
+        .card-edit {
+            padding: 20px;
+            .btn-back {
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .welcome {
+                display: block;
+                font-size: 1.8rem;
+
+                strong {
+                    font-size: 2rem;
+                    color: var(--text-primary);
+                    font-weight: 500;
+                }
+            }
+
+            .form-group {
+                label {
+                    font-size: 1.6rem;
+                }
+
+                input {
+                    font-size: 1.4rem;
+                }
+            }
+
+            .btn-cancel {
+                padding: 5px 15px;
+                margin-left: 20px;
+                color: var(--text-primary);
+                border: 1px solid var(--text-primary);
+                transition: background 0.6s ease-in-out;
+
+                &:hover {
+                    background: var(--primary);
+                    color: var(--white);
+                }
+            }
+
+            .btn-update {
+                padding: 5px 15px;
+                background: var(--primary);
+                color: var(--white);
+
+                transition: all 0.3s ease-in-out;
+                border: none;
+
+                &:hover {
+                    box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+                }
+            }
+        }
+    }
+}

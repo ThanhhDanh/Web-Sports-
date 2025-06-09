@@ -1,0 +1,92 @@
+.container-form {
+    h1 {
+        font-size: 2.8rem;
+        color: var(--text-primary);
+        text-align: center;
+    }
+    .wrapper {
+        .row {
+            .item-product {
+                padding: 10px 20px;
+                .img-product {
+                    height: 200px;
+                    mix-blend-mode: multiply;
+                    cursor: pointer;
+                }
+
+                .accessories {
+                    width: 100%;
+                    margin-top: 70px;
+                    p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        strong {
+                            font-size: 1.5rem;
+                            margin-right: 10px;
+                        }
+
+                        span {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+
+                label {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                }
+
+                .content {
+                    .content-icon {
+                        font-size: 2.4rem;
+                        color: #999;
+                        margin-bottom: 5px;
+                    }
+
+                    .content-name {
+                        font-size: 1.6rem;
+                        margin-bottom: 5px;
+                    }
+
+                    li {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                a {
+                    font-size: 1.4rem;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                .modal-title {
+                    font-size: 1.8rem;
+                }
+            }
+            .modal-body {
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .modal-footer {
+                button {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+.show-img {
+    height: 300px;
+}

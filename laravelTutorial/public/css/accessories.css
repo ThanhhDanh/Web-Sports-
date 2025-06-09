@@ -1,0 +1,73 @@
+.container-fluid h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 20px 0 30px 0;
+}
+.container-fluid .row .tabs .nav .nav-item .nav-link {
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+.container-fluid .row .tabs .nav .nav-item .nav-link.active {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.container-fluid .row .container-custom {
+  padding: 20px 10px;
+  margin: 10px 20px;
+}
+.container-fluid .row .container-custom .form-create {
+  width: 500px;
+  margin: 0 auto;
+}
+.container-fluid .row .container-custom .form-create label,
+.container-fluid .row .container-custom .form-create input {
+  font-size: 1.4rem;
+}
+.container-fluid .row .container-custom .form-create .form-input {
+  position: relative;
+}
+.container-fluid .row .container-custom .form-create .form-input .icon-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 3px 12px;
+  height: 100%;
+}
+.container-fluid .row .container-custom .form-create .form-input .icon-input {
+  background-color: #eaeaea;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.container-fluid .row .container-custom .form-create .btn-create {
+  font-size: 1.4rem;
+  font-weight: 500;
+  background: var(--primary);
+  color: var(--white);
+  padding: 5px 10px;
+}
+.container-fluid .row .container-custom .list-accessories {
+  border-top: 1px solid #eaeaea;
+}
+.container-fluid .row .container-custom .list-accessories table tr th,
+.container-fluid .row .container-custom .list-accessories table tr td {
+  font-size: 1.4rem;
+  line-height: 2.5;
+}
+.container-fluid .row .container-custom .list-accessories table tr th input,
+.container-fluid .row .container-custom .list-accessories table tr td input {
+  font-size: 1.4rem;
+}
+.container-fluid .row .container-custom .list-accessories table tr th i,
+.container-fluid .row .container-custom .list-accessories table tr td i {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.container-fluid .row .container-custom .list-accessories table tr th i:hover,
+.container-fluid .row .container-custom .list-accessories table tr td i:hover {
+  color: rgb(89, 152, 228);
+}

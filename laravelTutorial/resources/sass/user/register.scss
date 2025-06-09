@@ -1,0 +1,61 @@
+.wrapper {
+    padding-top: 70px;
+    .container-form {
+        .card {
+            .card-body {
+                form {
+                    .form-outline {
+                        position: relative;
+                        .form-input {
+                            position: relative;
+
+                            .icon-input {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                font-size: 1.6rem;
+                                color: #999;
+                                padding: 6px 12px;
+                                height: 100%;
+                            }
+
+                            #success,
+                            #error {
+                                display: none;
+                            }
+                        }
+
+                        input {
+                            font-size: 1.6rem;
+                        }
+
+                        .eye {
+                            position: absolute;
+                            top: 10px;
+                            right: 20px;
+                            font-size: 1.4rem;
+                            color: var(--text-primary);
+                            cursor: pointer;
+                        }
+
+                        .eye-see {
+                            display: none;
+                        }
+                    }
+
+                    .btn-register {
+                        font-size: 1.6rem;
+                        color: var(--white);
+                        border: none;
+                        background: var(--primary);
+                    }
+
+                    .text-login {
+                        font-size: 1.6rem;
+                        color: var(--text-primary);
+                    }
+                }
+            }
+        }
+    }
+}

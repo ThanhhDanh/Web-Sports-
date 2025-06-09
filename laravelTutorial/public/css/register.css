@@ -1,0 +1,46 @@
+.wrapper {
+  padding-top: 70px;
+}
+.wrapper .container-form .card .card-body form .form-outline {
+  position: relative;
+}
+.wrapper .container-form .card .card-body form .form-outline .form-input {
+  position: relative;
+}
+.wrapper .container-form .card .card-body form .form-outline .form-input .icon-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 6px 12px;
+  height: 100%;
+}
+.wrapper .container-form .card .card-body form .form-outline .form-input #success,
+.wrapper .container-form .card .card-body form .form-outline .form-input #error {
+  display: none;
+}
+.wrapper .container-form .card .card-body form .form-outline input {
+  font-size: 1.6rem;
+}
+.wrapper .container-form .card .card-body form .form-outline .eye {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+.wrapper .container-form .card .card-body form .form-outline .eye-see {
+  display: none;
+}
+.wrapper .container-form .card .card-body form .btn-register {
+  font-size: 1.6rem;
+  color: var(--white);
+  border: none;
+  background: var(--primary);
+}
+.wrapper .container-form .card .card-body form .text-login {
+  font-size: 1.6rem;
+  color: var(--text-primary);
+}

@@ -1,0 +1,122 @@
+.container-user .row .card .card-body h5 {
+  font-size: 1.6rem;
+}
+.container-user .row .card .card-body .text-muted {
+  font-size: 1.4rem;
+}
+.container-user .row .card .card-body button {
+  font-size: 1.3rem;
+}
+.container-user .row .card .card-body .btn-edit {
+  background: var(--primary);
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container-user .row .card .card-body .btn-edit:hover {
+  box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+}
+.container-user .row .card .card-body .btn-outline-message {
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease-in-out;
+}
+.container-user .row .card .card-body .btn-outline-message:hover {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--text-primary);
+}
+.container-user .row .card .card-body .label {
+  font-size: 1.5rem;
+}
+.container-user .row .card .card-body .list-group .list-group-item i {
+  font-size: 2rem;
+}
+.container-user .row .card .card-body .list-group .list-group-item .progress {
+  width: 80%;
+}
+.container-user .row .card .card-body .list-group .list-group-item p {
+  font-size: 1.4rem;
+}
+.container-user .row .card-product {
+  padding: 10px;
+  max-height: 408px;
+  overflow-y: scroll;
+}
+.container-user .row .card-product .item-roadmap {
+  padding: 5px 0;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.6s ease-in-out;
+}
+.container-user .row .card-product .item-roadmap:hover {
+  background-color: #f5f5f5;
+}
+.container-user .row .card-product .item-roadmap div {
+  font-size: 1.4rem;
+}
+.container-user .row .card-product .item-roadmap div img {
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.container-user .row .card-product .item-roadmap:last-child {
+  border-bottom: none;
+}
+.container-user .row .card-body,
+.container-user .row .card-edit {
+  padding: 20px;
+}
+.container-user .row .card-body .btn-back,
+.container-user .row .card-edit .btn-back {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.container-user .row .card-body .btn-back:hover,
+.container-user .row .card-edit .btn-back:hover {
+  transform: scale(1.1);
+}
+.container-user .row .card-body .welcome,
+.container-user .row .card-edit .welcome {
+  display: block;
+  font-size: 1.8rem;
+}
+.container-user .row .card-body .welcome strong,
+.container-user .row .card-edit .welcome strong {
+  font-size: 2rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.container-user .row .card-body .form-group label,
+.container-user .row .card-edit .form-group label {
+  font-size: 1.6rem;
+}
+.container-user .row .card-body .form-group input,
+.container-user .row .card-edit .form-group input {
+  font-size: 1.4rem;
+}
+.container-user .row .card-body .btn-cancel,
+.container-user .row .card-edit .btn-cancel {
+  padding: 5px 15px;
+  margin-left: 20px;
+  color: var(--text-primary);
+  border: 1px solid var(--text-primary);
+  transition: background 0.6s ease-in-out;
+}
+.container-user .row .card-body .btn-cancel:hover,
+.container-user .row .card-edit .btn-cancel:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+.container-user .row .card-body .btn-update,
+.container-user .row .card-edit .btn-update {
+  padding: 5px 15px;
+  background: var(--primary);
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.container-user .row .card-body .btn-update:hover,
+.container-user .row .card-edit .btn-update:hover {
+  box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+}

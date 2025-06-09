@@ -1,0 +1,64 @@
+.container-form h1 {
+  font-size: 2.8rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+.container-form .wrapper .row .item-product {
+  padding: 10px 20px;
+}
+.container-form .wrapper .row .item-product .img-product {
+  height: 200px;
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+.container-form .wrapper .row .item-product .accessories {
+  width: 100%;
+  margin-top: 70px;
+}
+.container-form .wrapper .row .item-product .accessories p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-form .wrapper .row .item-product .accessories p strong {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.container-form .wrapper .row .item-product .accessories p span {
+  font-size: 1.4rem;
+}
+.container-form .wrapper .row .item-product label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.container-form .wrapper .row .item-product .content .content-icon {
+  font-size: 2.4rem;
+  color: #999;
+  margin-bottom: 5px;
+}
+.container-form .wrapper .row .item-product .content .content-name {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+.container-form .wrapper .row .item-product .content li {
+  font-size: 1.6rem;
+}
+.container-form .wrapper .row .item-product a {
+  font-size: 1.4rem;
+  padding: 5px;
+}
+
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 1.8rem;
+}
+.modal .modal-dialog .modal-content .modal-body p {
+  font-size: 1.6rem;
+}
+.modal .modal-dialog .modal-content .modal-footer button {
+  font-size: 1.6rem;
+}
+
+.show-img {
+  height: 300px;
+}

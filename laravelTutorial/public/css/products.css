@@ -1,0 +1,68 @@
+.container-form h1 {
+  font-size: 2.8rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+.container-form .grid .row .form-filter,
+.container-form .grid .row .form-search {
+  margin: 39px 0;
+}
+.container-form .grid .row .form-filter label,
+.container-form .grid .row .form-search label {
+  font-size: 1.3rem;
+}
+.container-form .grid .row .form-filter .form-control,
+.container-form .grid .row .form-filter .tom-select,
+.container-form .grid .row .form-search .form-control,
+.container-form .grid .row .form-search .tom-select {
+  font-size: 1.6rem;
+}
+.container-form .grid .row .form-filter .focus .ts-control,
+.container-form .grid .row .form-search .focus .ts-control {
+  border-color: #dee2e6;
+  box-shadow: none;
+}
+.container-form .grid .row .button-filter {
+  font-size: 1.4rem;
+  color: var(--white);
+  border: none;
+  background: var(--primary);
+  max-width: 50px;
+  width: 100%;
+}
+.container-form .grid .row .table thead th {
+  font-size: 1.6rem;
+}
+.container-form .grid .row .table .table-body .img-product {
+  height: 80px;
+  mix-blend-mode: multiply;
+}
+.container-form .grid .row .table .table-body td {
+  font-size: 1.6rem;
+}
+.container-form .grid .row .table .table-body .btn-detail {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--primary);
+}
+.container-form .paginate nav div p {
+  margin-right: 10px;
+}
+.container-form .paginate nav .pagination .page-item .page-link {
+  padding: 4px 8px;
+  font-size: 1.4rem;
+}
+.container-form .paginate nav .pagination .page-item.active > .page-link {
+  background: var(--primary);
+}
+.container-form .link-product {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  text-decoration: underline !important;
+  margin-left: 5px;
+  transition: color 0.3s ease-in-out;
+}
+.container-form .link-product:hover {
+  color: #4273ae;
+}

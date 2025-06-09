@@ -1,0 +1,94 @@
+.container-fluid {
+    h1 {
+        font-size: 2.8rem;
+        font-weight: 500;
+        color: var(--text-primary);
+        margin: 20px 0 30px 0;
+    }
+
+    .row {
+        .tabs {
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        font-size: 1.3rem;
+                        color: var(--text-color);
+                    }
+
+                    .nav-link.active {
+                        color: var(--text-primary);
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .container-custom {
+            padding: 20px 10px;
+            margin: 10px 20px;
+
+            .form-create {
+                width: 500px;
+                margin: 0 auto;
+                label,
+                input {
+                    font-size: 1.4rem;
+                }
+
+                .form-input {
+                    position: relative;
+
+                    .icon-input {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        font-size: 1.6rem;
+                        color: #999;
+                        padding: 3px 12px;
+                        height: 100%;
+                    }
+
+                    .icon-input {
+                        background-color: #eaeaea;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+                }
+
+                .btn-create {
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    background: var(--primary);
+                    color: var(--white);
+                    padding: 5px 10px;
+                }
+            }
+
+            .list-accessories {
+                border-top: 1px solid #eaeaea;
+                table {
+                    tr th,
+                    tr td {
+                        font-size: 1.4rem;
+                        line-height: 2.5;
+
+                        input {
+                            font-size: 1.4rem;
+                        }
+
+                        i {
+                            font-size: 1.8rem;
+                            color: var(--text-primary);
+                            cursor: pointer;
+                            transition: all 0.3s ease-in-out;
+
+                            &:hover {
+                                color: rgb(89, 152, 228);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

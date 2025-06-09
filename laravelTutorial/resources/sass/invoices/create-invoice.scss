@@ -1,0 +1,203 @@
+.container-fluid {
+    height: 100%;
+    background-color: #eaeaea;
+    .bg-container {
+        height: 100%;
+        background-color: var(--white);
+        box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+        .name-create-invoice {
+            font-size: 2.8rem;
+            font-weight: 500;
+        }
+
+        .row {
+            .form-group {
+                label {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
+                .form-input {
+                    position: relative;
+                    input,
+                    select {
+                        font-size: 1.4rem;
+                    }
+
+                    .icon-input,
+                    .icon-input-error {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        font-size: 1.6rem;
+                        color: #999;
+                        padding: 3px 12px;
+                        height: 100%;
+                    }
+
+                    .icon-input {
+                        background-color: #eaeaea;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+
+                    #success,
+                    #error {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .container-table {
+            margin-top: 50px;
+            padding: 0 22px;
+
+            .table {
+                thead,
+                tbody {
+                    tr {
+                        .w-90 {
+                            width: 90px;
+                            max-width: 100%;
+                        }
+                        .p-10 {
+                            padding: 10px;
+                        }
+                    }
+                }
+
+                thead {
+                    tr {
+                        th {
+                            color: var(--text-color);
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            color: var(--text-primary);
+                            .form-select {
+                                font-size: 1.4rem;
+                            }
+                            input {
+                                font-size: 1.4rem;
+                            }
+
+                            i {
+                                color: var(--text-primary);
+                                padding: 7px;
+                                width: 100%;
+                                font-size: 1.6rem;
+                                cursor: pointer;
+                                transition: color 0.3s ease-in-out;
+
+                                &:hover {
+                                    color: #0391e8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .row {
+            .col-left {
+                background-color: #eaeaea;
+                padding: 20px 40px;
+                border-radius: 5px;
+                height: 100%;
+
+                .form-group {
+                    .form-input {
+                        .icon-input {
+                            background-color: #bebebe;
+                        }
+                    }
+
+                    .form-textarea {
+                        textarea {
+                            padding: 10px;
+                            font-size: 1.4rem;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .col-right {
+                background-color: #eaeaea;
+                padding: 20px 40px;
+                border-radius: 10px;
+                height: 100%;
+
+                .col-item {
+                    font-size: 1.4rem;
+                    margin-bottom: 20px;
+                    .money-bill {
+                        color: var(--text-color) !important;
+                    }
+                    .label-item {
+                        font-weight: 500;
+                        color: #7f7d7d;
+                    }
+
+                    .money-item {
+                        color: var(--text-primary);
+                    }
+
+                    .form-input {
+                        position: relative;
+                        width: 100%;
+                        input,
+                        select {
+                            font-size: 1.4rem;
+                        }
+
+                        .icon-input {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            font-size: 1.6rem;
+                            color: #999;
+                            padding: 3px 12px;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                            height: 100%;
+                            background-color: #bebebe;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn {
+            padding: 6px 26px;
+            font-size: 1.4rem;
+        }
+
+        .btn-cancel {
+            border: 1px solid var(--text-primary);
+            color: var(--text-primary);
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background: var(--primary);
+                color: var(--white);
+            }
+        }
+
+        .btn-create {
+            background: var(--primary);
+            color: var(--white);
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+            }
+        }
+    }
+}

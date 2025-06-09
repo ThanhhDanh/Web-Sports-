@@ -1,0 +1,140 @@
+.container-fluid {
+  height: 100%;
+  background-color: #eaeaea;
+}
+.container-fluid .header-event {
+  align-items: center;
+  padding: 30px 0;
+}
+.container-fluid .header-event .name-shop {
+  color: var(--text-primary);
+}
+.container-fluid .header-event .action-event {
+  text-align: right;
+}
+.container-fluid .header-event .action-event a {
+  padding: 10px 20px;
+  background: var(--primary);
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.container-fluid .header-event .action-event a:last-child {
+  margin-right: 0;
+}
+.container-fluid .header-event .action-event i {
+  color: var(--white);
+  font-size: 1.6rem;
+}
+.container-fluid .bg-container {
+  width: 100%;
+  padding: 40px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+  border-radius: 20px;
+}
+.container-fluid .bg-container .image-event {
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+  margin-bottom: 30px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container-fluid .bg-container .name-event {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 20px;
+}
+.container-fluid .bg-container .description-event {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+.container-fluid .bg-container .description-event br {
+  display: block;
+  margin-bottom: 20px;
+  content: "";
+}
+.container-fluid .bg-container .btn-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  font-size: 1.4rem;
+  color: var(--white);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.container-fluid .bg-container .btn-video i {
+  font-size: 2rem;
+}
+.container-fluid .bg-container .btn-video:hover {
+  background: var(--primary);
+}
+.container-fluid .bg-container .diff-event-label {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 5px;
+}
+.container-fluid .bg-container .diff-events .diff-event {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.container-fluid .bg-container .diff-events .diff-event span:last-child {
+  font-size: 1.4rem;
+  color: #999;
+}
+.container-fluid .bg-container .diff-events .diff-event img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container-fluid .bg-container .diff-events .diff-event .diff-event-info {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 20px;
+}
+.container-fluid .bg-container .diff-events .diff-event:hover {
+  box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+}
+.container-fluid .info-event {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  background: var(--primary);
+}
+.container-fluid .info-event span {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+.container-fluid .info-event span i {
+  margin-right: 10px;
+}
+
+.modal-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}

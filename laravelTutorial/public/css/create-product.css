@@ -1,0 +1,49 @@
+.container-form {
+  position: relative;
+}
+.container-form h2 {
+  font-size: 2.8rem;
+  color: var(--text-primary);
+}
+.container-form .form {
+  padding: 20px;
+}
+.container-form .form .form-input {
+  position: relative;
+}
+.container-form .form .form-input .icon-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 3px 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
+  background-color: #eaeaea;
+}
+.container-form .form .text-error {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.container-form .form .form-label {
+  font-size: 1.8rem;
+}
+.container-form .form .form-control,
+.container-form .form .form-select {
+  font-size: 1.6rem;
+}
+.container-form .form button {
+  position: absolute;
+  bottom: -30px;
+  right: 25px;
+  background: var(--primary);
+  font-size: 1.6rem;
+}
+.container-form .form .img-product {
+  width: 80px;
+  height: 80px;
+}

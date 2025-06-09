@@ -1,0 +1,46 @@
+.container-form .wrapper .row .item-category {
+  padding: 10px 20px;
+}
+.container-form .wrapper .row .item-category .img-category {
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.container-form .wrapper .row .item-category .content .content-name {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 5px;
+}
+.container-form .wrapper .row .item-category .content li {
+  font-size: 1.6rem;
+}
+.container-form .wrapper .wrapper-roadmap span {
+  display: block;
+  font-size: 2.1rem;
+  color: var(--text-primary);
+  margin: 60px 0 20px 0;
+}
+.container-form .wrapper .wrapper-roadmap .item-roadmap {
+  font-size: 1.4rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.container-form .wrapper .wrapper-roadmap .item-roadmap .content-roadmap {
+  padding: 13px 5px;
+}
+.container-form .wrapper .wrapper-roadmap .item-roadmap .img-roadmap {
+  height: 80px;
+}
+.container-form .wrapper .wrapper-roadmap .item-roadmap .btn-roadmap-detail {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px 16px;
+  border-radius: 5px;
+  border: none;
+  background: var(--primary);
+}
+.container-form .wrapper .wrapper-roadmap .item-roadmap:last-child {
+  margin-bottom: 0px;
+}

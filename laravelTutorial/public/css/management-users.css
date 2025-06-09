@@ -1,0 +1,109 @@
+.container-fluid {
+  height: 100%;
+  background-color: #eaeaea;
+}
+.container-fluid .header-event {
+  align-items: center;
+  padding: 30px 0;
+}
+.container-fluid .header-event .name-shop {
+  color: var(--text-primary);
+}
+.container-fluid .header-event .form-search {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 8px 16px;
+  width: 280px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.container-fluid .header-event .form-search .form-control {
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 20px;
+}
+.container-fluid .header-event .form-search i {
+  font-size: 1.4rem;
+  color: #999;
+}
+.container-fluid .header-event .add-user {
+  color: #038edc;
+  background-color: rgba(3, 142, 220, 0.1);
+  border-color: transparent !important;
+  border-radius: 10px;
+}
+.container-fluid .header-event .add-user a {
+  font-size: 1.6rem;
+  padding: 10px 20px;
+}
+.container-fluid .header-event .add-user a:hover {
+  color: #fff !important;
+}
+.container-fluid .header-event .add-user:hover {
+  color: #fff !important;
+  background-color: #038edc !important;
+}
+.container-fluid .container {
+  padding: 20px 30px;
+}
+.container-fluid .container .row {
+  --bs-gutter-y: 1.5rem;
+}
+.container-fluid .container .row .card {
+  box-shadow: 0 2px 3px #eaedf2;
+}
+.container-fluid .container .row .card .card-body {
+  padding: 20px;
+}
+.container-fluid .container .row .card .card-body .dropdown .dropdown-toggle::after {
+  display: none;
+}
+.container-fluid .container .row .card .card-body .avatar-lg {
+  height: 8rem;
+  width: 8rem;
+}
+.container-fluid .container .row .card .card-body .employee-name {
+  color: var(--text-primary);
+}
+.container-fluid .container .row .card .card-body .employee-designation {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.container-fluid .container .row .card .card-body .date-join {
+  font-size: 1.4rem;
+}
+.container-fluid .container .row .card .card-footer {
+  background-color: var(--white);
+}
+.container-fluid .container .row .card .card-footer:hover {
+  text-decoration: none;
+}
+.container-fluid .container .row .card .card-footer .employee-info {
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container-fluid .container .row .card .card-footer #tooltip {
+  display: none;
+  position: absolute;
+  background: var(--white);
+  box-shadow: -2px 2px 16px -1px rgb(73, 61, 61);
+  color: white;
+  margin-top: 7px !important;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 9999 !important;
+  opacity: 1;
+  padding: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.container-fluid .container .row .card .card-footer #tooltip span {
+  font-size: 1.3rem;
+  background: var(--black);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+}

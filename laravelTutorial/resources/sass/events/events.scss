@@ -1,0 +1,122 @@
+.container-fluid {
+    height: 100%;
+    background-color: #eaeaea;
+
+    .bg-container {
+        height: 100%;
+        background-color: var(--white);
+        box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+        border-radius: 20px;
+
+        .container-table {
+            padding: 30px;
+
+            .table {
+                thead tr th {
+                    font-size: 1.4rem;
+                }
+
+                tbody {
+                    tr {
+                        line-height: 2.5;
+                        td:first-child {
+                            font-weight: 600;
+                        }
+
+                        .name {
+                            .name-more {
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                overflow: hidden;
+                                display: -webkit-box;
+                            }
+                        }
+
+                        td {
+                            font-size: 1.5rem;
+
+                            .status {
+                                display: block;
+                                width: 90px;
+                                margin: 0 auto;
+                                border-radius: 20px;
+                            }
+
+                            .public {
+                                background-color: #e3f9e9;
+                                border-color: #e3f9e9;
+                                color: #2bc155;
+                            }
+
+                            .private {
+                                background-color: #ffd1d1;
+                                border-color: #ffd1d1;
+                                color: #ff4847;
+                            }
+
+                            i {
+                                font-size: 1.4rem;
+                                color: var(--text-primary);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-event {
+        align-items: center;
+        justify-content: center;
+        margin: 25px 0;
+
+        .name-shop {
+            color: var(--text-primary);
+        }
+
+        label {
+            font-size: 1.6rem;
+        }
+
+        .btn-group {
+            gap: 30px;
+            .btn-bg-check {
+                background: var(--primary) !important;
+                color: var(--white) !important;
+            }
+
+            .btn-outline-check {
+                padding: 8px 26px;
+                color: var(--text-primary);
+                border-color: var(--text-primary);
+                border-radius: 10px;
+            }
+
+            .btn-hover {
+                transition: all 0.6s ease-in-out;
+
+                &:hover {
+                    background: rgb(91, 165, 255) !important;
+                }
+            }
+        }
+
+        .form-search {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 8px 16px;
+            width: 280px;
+            height: max-content;
+            .form-control {
+                font-size: 1.4rem;
+                border: none;
+                border-radius: 20px;
+            }
+
+            i {
+                font-size: 1.4rem;
+                color: #999;
+            }
+        }
+    }
+}

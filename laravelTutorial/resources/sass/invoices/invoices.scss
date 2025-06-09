@@ -1,0 +1,236 @@
+.container-fluid {
+    .name-shop {
+        color: var(--text-primary);
+    }
+    .row {
+        .bg-invoice-tables-last {
+            background: var(--primary);
+        }
+
+        .bg-invoice-table {
+            box-shadow: rgba(56, 65, 74, 0.15) 0px 1px 2px;
+
+            .card-body {
+                color: var(--text-color);
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+
+                .card-body-invoice {
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    .card-content {
+                        justify-content: flex-start;
+                        margin: 0 0 2px 0;
+
+                        .card-data {
+                            font-size: 2.4rem;
+                            margin-right: 0;
+                        }
+
+                        .card-unit {
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            line-height: 2.3;
+                        }
+                    }
+
+                    .card-stats {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 15px;
+
+                        .card-amount,
+                        .card-amount-cancel {
+                            font-size: 1.3rem;
+                            font-weight: 500;
+                            line-height: 1;
+                            padding: 4px 8px;
+                            margin-right: 5px;
+                            border-radius: 6px;
+                        }
+
+                        .card-amount {
+                            background: var(--primary);
+                            color: var(--white);
+                        }
+
+                        .card-amount-cancel {
+                            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+                            color: var(--text-color);
+                        }
+
+                        .card-amount-unit {
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .avatar-sm {
+                    height: 4.6rem;
+                    width: 4.6rem;
+
+                    .avatar-title {
+                        font-size: 2.8rem;
+                        align-items: center;
+                        color: #fff;
+                        display: flex;
+                        font-weight: 500;
+                        height: 100%;
+                        justify-content: center;
+                        width: 100%;
+
+                        svg {
+                            color: var(--text-primary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-invoices {
+        .card-table {
+            .table {
+                position: relative;
+                z-index: 1;
+                thead tr th,
+                tfoot tr th {
+                    font-size: 1.3rem;
+                }
+
+                tbody {
+                    tr td {
+                        font-size: 1.4rem;
+                    }
+
+                    .img-user {
+                        height: 40px;
+                        border-radius: 50%;
+                        mix-blend-mode: multiply;
+                    }
+
+                    .bg-more {
+                        display: flex;
+                        justify-content: center;
+                        background: var(--primary);
+                        border-radius: 50%;
+                        padding: 3px;
+                        position: absolute;
+                        top: 50%;
+                        left: 8px;
+                        transform: translateY(-50%);
+                        cursor: pointer;
+                    }
+
+                    .status-invoice {
+                        display: block;
+                        padding: 5px 0;
+                        margin-top: 5px;
+                        border-radius: 50px;
+                    }
+
+                    .pending {
+                        background: #fff6dc;
+                    }
+
+                    .paid {
+                        background-color: rgba(17, 148, 247, 0.12) !important;
+                        color: #2196f3 !important;
+                    }
+
+                    .cancel {
+                        background-color: rgba(255, 218, 218, 0.49) !important;
+                        color: #ff0000 !important;
+                    }
+                }
+            }
+
+            .paginate {
+                nav {
+                    div {
+                        p {
+                            font-size: 1.3rem;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .pagination {
+                        .page-item {
+                            .page-link {
+                                padding: 4px 8px;
+                                font-size: 1.4rem;
+                            }
+                        }
+                        .page-item.active > .page-link {
+                            background: var(--primary);
+                        }
+                    }
+                }
+            }
+        }
+
+        #tooltip {
+            display: none;
+            position: absolute;
+            background: var(--white);
+            box-shadow: -2px 2px 16px -1px rgba(73, 61, 61, 1);
+            color: white;
+            margin-top: 7px !important;
+            border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+            z-index: 9999 !important;
+            opacity: 1;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: var(--text-color);
+
+                li {
+                    border-bottom: 1px solid #f0f0f0;
+                    transition: all 0.3s ease-in-out;
+
+                    a {
+                        display: block;
+                        padding: 10px 25px;
+                    }
+
+                    &:hover {
+                        background: #f0f0f0;
+                    }
+
+                    i {
+                        color: var(--text-primary);
+
+                        &:hover {
+                            color: rgb(72, 176, 241);
+                        }
+                    }
+                }
+
+                li:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    .form-search {
+        margin: 20px 0;
+        .form-control {
+            font-size: 1.6rem;
+        }
+        button {
+            font-size: 1.4rem;
+            color: var(--white);
+            border: none;
+            background: var(--primary);
+        }
+    }
+}

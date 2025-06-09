@@ -1,0 +1,180 @@
+.container-form {
+    h1 {
+        font-size: 2.8rem;
+        color: var(--text-primary);
+        text-align: center;
+    }
+
+    .grid {
+        .row {
+            .create-category {
+                text-align: right;
+                margin-top: 30px;
+                .btn-create {
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    color: var(--white);
+                    padding: 8px 16px;
+                    border-radius: 5px;
+                    border: none;
+                    background: var(--primary);
+                }
+            }
+            .table {
+                thead {
+                    th {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                .table-body {
+                    .img-category {
+                        height: 80px;
+                        mix-blend-mode: multiply;
+                    }
+
+                    td {
+                        font-size: 1.4rem;
+                    }
+
+                    .description {
+                        width: 678px;
+                        .description-more {
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            display: -webkit-box;
+                        }
+                    }
+
+                    @media screen and (min-width: 741px) and (max-width: 1024px) {
+                        .description {
+                            -webkit-line-clamp: 4;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            display: -webkit-box;
+                        }
+                    }
+
+                    @media only screen and (max-width: 740px) {
+                        .description {
+                            -webkit-line-clamp: 4;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            display: -webkit-box;
+                        }
+                    }
+
+                    .btn-process {
+                        font-size: 1.3rem;
+                    }
+
+                    .btn-detail {
+                        background: var(--primary);
+                        color: var(--white);
+                    }
+                }
+            }
+        }
+    }
+
+    .paginate {
+        nav {
+            div {
+                p {
+                    margin-right: 10px;
+                }
+            }
+
+            .pagination {
+                .page-item {
+                    .page-link {
+                        padding: 4px 8px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .page-item.active > .page-link {
+                    background: var(--primary);
+                }
+            }
+        }
+    }
+
+    .link-product {
+        font-size: 1.8rem;
+        color: var(--text-primary);
+        text-decoration: underline !important;
+        margin-left: 5px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: #4273ae;
+        }
+    }
+
+    // Form create and edit
+    .offcanvas {
+        .offcanvas-header {
+            position: relative;
+            .offcanvas-title {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 30px;
+                font-size: 2.4rem;
+                color: var(--text-primary);
+            }
+            .btn-close {
+                font-size: 2rem;
+                color: var(--text-primary);
+                margin-right: 20px;
+                margin-top: 20px;
+            }
+        }
+        .offcanvas-body {
+            position: relative;
+            label {
+                font-size: 1.8rem;
+            }
+            input,
+            textarea {
+                font-size: 1.6rem;
+            }
+
+            button {
+                position: absolute;
+                right: 25px;
+                background: var(--primary);
+                font-size: 1.6rem;
+            }
+
+            .img-category {
+                height: 80px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    .modal-title {
+                        font-size: 1.8rem;
+                    }
+                }
+                .modal-body {
+                    p {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                .modal-footer {
+                    button {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+.container-fluid {
+  height: 100%;
+  background-color: #eaeaea;
+}
+.container-fluid .bg-container {
+  height: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+}
+.container-fluid .bg-container .name-detail-invoice {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.container-fluid .bg-container .row .header-invoice-detail {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 5px;
+}
+.container-fluid .bg-container .row .info-store {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .bg-container .row .info-store img {
+  height: 70px;
+  width: 70px;
+  mix-blend-mode: difference;
+}
+.container-fluid .bg-container .row .info-store .name-shop {
+  font-size: 1.5rem;
+}
+.container-fluid .bg-container .row .info-paid {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .row .paid {
+  color: #2196f3 !important;
+}
+.container-fluid .bg-container .row .cancel {
+  color: #ff0000 !important;
+}
+.container-fluid .bg-container .row .time-invoice-detail {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 5px;
+  margin: 0px;
+}
+.container-fluid .bg-container .row .time-invoice-detail .header-date .title-date {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #999;
+  margin-right: 10px;
+}
+.container-fluid .bg-container .row .time-invoice-detail .header-date .date {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .row .time-invoice-detail .header-date .title-id {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.container-fluid .bg-container .row .time-invoice-detail .header-date .id {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.container-fluid .bg-container .row .info-invoice-detail {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 30px 5px;
+  margin: 0px;
+}
+.container-fluid .bg-container .row .info-invoice-detail .info-to {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container-fluid .bg-container .row .info-invoice-detail .info-to h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 0 0 5px 30px;
+}
+.container-fluid .bg-container .row .info-invoice-detail .info-to span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #999;
+  margin-left: 9px;
+}
+.container-fluid .bg-container .row .list-products-invoice {
+  padding: 0 5px;
+}
+.container-fluid .bg-container .row .list-products-invoice h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin: 20px 0;
+}
+.container-fluid .bg-container .row .list-products-invoice .container-table .table thead tr th,
+.container-fluid .bg-container .row .list-products-invoice .container-table .table tfoot tr th {
+  font-size: 1.3rem;
+}
+.container-fluid .bg-container .row .list-products-invoice .container-table .table tbody tr td {
+  font-size: 1.2rem;
+  line-height: 4;
+}
+.container-fluid .bg-container .row .list-products-invoice .container-table .table tbody tr td .name-short {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.container-fluid .bg-container .row .list-products-invoice .container-table .table tbody .img-user {
+  height: 40px;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+}
+.container-fluid .bg-container .row .list-products-invoice .footer-table {
+  padding: 10px;
+  margin-top: 40px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+.container-fluid .bg-container .row .list-products-invoice .footer-table div .footer-label-table {
+  color: #999;
+}
+.container-fluid .bg-container .row .list-products-invoice .footer-table div span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .row .list-products-invoice .footer-table div span strong {
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .col-right {
+  padding: 30px;
+  background-color: #f6f6f6;
+  box-shadow: -1px 3px 8px -1px rgb(215, 212, 212);
+  height: 100%;
+  max-height: 625px;
+}
+.container-fluid .bg-container .col-right .form-label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .col-right .payment-details {
+  margin: 20px 0;
+}
+.container-fluid .bg-container .col-right .payment-details span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.container-fluid .bg-container .col-right .payment-details span strong {
+  font-size: 1.4rem;
+  color: #999;
+}
+.container-fluid .bg-container .col-right .timeline-invoices span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  display: block;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline {
+  height: 390px;
+  overflow-y: scroll;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 {
+  border-left: 3px solid #d4d4d4;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: transparent;
+  margin-left: 91px;
+  position: relative;
+  padding: 17px 20px;
+  list-style: none;
+  text-align: left;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 {
+    max-width: 98%;
+    padding: 25px;
+  }
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event {
+  border-bottom: 1px dashed var(--text-primary);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event a:hover {
+  text-decoration: underline !important;
+  color: rgb(91, 133, 182);
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event p {
+  font-size: 1.2rem;
+  color: #999;
+}
+@media (max-width: 767px) {
+  .container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event {
+    padding-top: 30px;
+  }
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:before,
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:before {
+  left: -177px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+@media (max-width: 767px) {
+  .container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:before {
+    left: 0px;
+    text-align: left;
+  }
+}
+.container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:after {
+  box-shadow: 0 0 0 3px var(--text-primary);
+  left: -25.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
+}
+@media (max-width: 767px) {
+  .container-fluid .bg-container .col-right .timeline-invoices .container-timeline .timeline-1 .event:after {
+    left: -31.8px;
+  }
+}
+.container-fluid .bg-container .signature-user span:first-child {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.container-fluid .bg-container .signature-user span:last-child {
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+}

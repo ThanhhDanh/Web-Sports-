@@ -1,0 +1,126 @@
+.container-form h1 {
+  font-size: 2.8rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+.container-form .grid .row .create-discount {
+  text-align: right;
+  margin-top: 30px;
+}
+.container-form .grid .row .create-discount .btn-create {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background: var(--primary);
+}
+.container-form .grid .row .table thead th {
+  font-size: 1.6rem;
+}
+.container-form .grid .row .table .table-body .img-discount {
+  height: 80px;
+  mix-blend-mode: multiply;
+}
+.container-form .grid .row .table .table-body td {
+  font-size: 1.4rem;
+}
+.container-form .grid .row .table .table-body .description {
+  width: 678px;
+}
+.container-form .grid .row .table .table-body .description .description-more {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+  .container-form .grid .row .table .table-body .description {
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .container-form .grid .row .table .table-body .description {
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+}
+.container-form .grid .row .table .table-body .btn-process {
+  font-size: 1.3rem;
+}
+.container-form .grid .row .table .table-body .btn-detail {
+  background: var(--primary);
+  color: var(--white);
+}
+.container-form .paginate nav div p {
+  margin-right: 10px;
+}
+.container-form .paginate nav .pagination .page-item .page-link {
+  padding: 4px 8px;
+  font-size: 1.4rem;
+}
+.container-form .paginate nav .pagination .page-item.active > .page-link {
+  background: var(--primary);
+}
+.container-form .link-product {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  text-decoration: underline !important;
+  margin-left: 5px;
+  transition: color 0.3s ease-in-out;
+}
+.container-form .link-product:hover {
+  color: #4273ae;
+}
+.container-form .offcanvas .offcanvas-header {
+  position: relative;
+}
+.container-form .offcanvas .offcanvas-header .offcanvas-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+  font-size: 2.4rem;
+  color: var(--text-primary);
+}
+.container-form .offcanvas .offcanvas-header .btn-close {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.container-form .offcanvas .offcanvas-body {
+  position: relative;
+}
+.container-form .offcanvas .offcanvas-body label {
+  font-size: 1.8rem;
+}
+.container-form .offcanvas .offcanvas-body input,
+.container-form .offcanvas .offcanvas-body textarea {
+  font-size: 1.6rem;
+}
+.container-form .offcanvas .offcanvas-body button {
+  position: absolute;
+  right: 25px;
+  background: var(--primary);
+  font-size: 1.6rem;
+}
+.container-form .offcanvas .offcanvas-body .img-discount {
+  height: 80px;
+  margin-top: 10px;
+}
+.container-form .modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 1.8rem;
+}
+.container-form .modal .modal-dialog .modal-content .modal-body p {
+  font-size: 1.6rem;
+}
+.container-form .modal .modal-dialog .modal-content .modal-footer button {
+  font-size: 1.6rem;
+}

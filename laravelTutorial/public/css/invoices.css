@@ -1,0 +1,184 @@
+.container-fluid .name-shop {
+  color: var(--text-primary);
+}
+.container-fluid .row .bg-invoice-tables-last {
+  background: var(--primary);
+}
+.container-fluid .row .bg-invoice-table {
+  box-shadow: rgba(56, 65, 74, 0.15) 0px 1px 2px;
+}
+.container-fluid .row .bg-invoice-table .card-body {
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-content {
+  justify-content: flex-start;
+  margin: 0 0 2px 0;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-content .card-data {
+  font-size: 2.4rem;
+  margin-right: 0;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-content .card-unit {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2.3;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats .card-amount,
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats .card-amount-cancel {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats .card-amount {
+  background: var(--primary);
+  color: var(--white);
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats .card-amount-cancel {
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  color: var(--text-color);
+}
+.container-fluid .row .bg-invoice-table .card-body .card-body-invoice .card-stats .card-amount-unit {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.container-fluid .row .bg-invoice-table .card-body .avatar-sm {
+  height: 4.6rem;
+  width: 4.6rem;
+}
+.container-fluid .row .bg-invoice-table .card-body .avatar-sm .avatar-title {
+  font-size: 2.8rem;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.container-fluid .row .bg-invoice-table .card-body .avatar-sm .avatar-title svg {
+  color: var(--text-primary);
+}
+.container-fluid .menu-invoices .card-table .table {
+  position: relative;
+  z-index: 1;
+}
+.container-fluid .menu-invoices .card-table .table thead tr th,
+.container-fluid .menu-invoices .card-table .table tfoot tr th {
+  font-size: 1.3rem;
+}
+.container-fluid .menu-invoices .card-table .table tbody tr td {
+  font-size: 1.4rem;
+}
+.container-fluid .menu-invoices .card-table .table tbody .img-user {
+  height: 40px;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+}
+.container-fluid .menu-invoices .card-table .table tbody .bg-more {
+  display: flex;
+  justify-content: center;
+  background: var(--primary);
+  border-radius: 50%;
+  padding: 3px;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.container-fluid .menu-invoices .card-table .table tbody .status-invoice {
+  display: block;
+  padding: 5px 0;
+  margin-top: 5px;
+  border-radius: 50px;
+}
+.container-fluid .menu-invoices .card-table .table tbody .pending {
+  background: #fff6dc;
+}
+.container-fluid .menu-invoices .card-table .table tbody .paid {
+  background-color: rgba(17, 148, 247, 0.12) !important;
+  color: #2196f3 !important;
+}
+.container-fluid .menu-invoices .card-table .table tbody .cancel {
+  background-color: rgba(255, 218, 218, 0.49) !important;
+  color: #ff0000 !important;
+}
+.container-fluid .menu-invoices .card-table .paginate nav div p {
+  font-size: 1.3rem;
+  margin-right: 15px;
+}
+.container-fluid .menu-invoices .card-table .paginate nav .pagination .page-item .page-link {
+  padding: 4px 8px;
+  font-size: 1.4rem;
+}
+.container-fluid .menu-invoices .card-table .paginate nav .pagination .page-item.active > .page-link {
+  background: var(--primary);
+}
+.container-fluid .menu-invoices #tooltip {
+  display: none;
+  position: absolute;
+  background: var(--white);
+  box-shadow: -2px 2px 16px -1px rgb(73, 61, 61);
+  color: white;
+  margin-top: 7px !important;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 9999 !important;
+  opacity: 1;
+}
+.container-fluid .menu-invoices #tooltip ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.container-fluid .menu-invoices #tooltip ul li {
+  border-bottom: 1px solid #f0f0f0;
+  transition: all 0.3s ease-in-out;
+}
+.container-fluid .menu-invoices #tooltip ul li a {
+  display: block;
+  padding: 10px 25px;
+}
+.container-fluid .menu-invoices #tooltip ul li:hover {
+  background: #f0f0f0;
+}
+.container-fluid .menu-invoices #tooltip ul li i {
+  color: var(--text-primary);
+}
+.container-fluid .menu-invoices #tooltip ul li i:hover {
+  color: rgb(72, 176, 241);
+}
+.container-fluid .menu-invoices #tooltip ul li:last-child {
+  border-bottom: none;
+}
+.container-fluid .form-search {
+  margin: 20px 0;
+}
+.container-fluid .form-search .form-control {
+  font-size: 1.6rem;
+}
+.container-fluid .form-search button {
+  font-size: 1.4rem;
+  color: var(--white);
+  border: none;
+  background: var(--primary);
+}

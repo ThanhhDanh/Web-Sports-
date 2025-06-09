@@ -1,0 +1,155 @@
+.container-fluid {
+  height: 100%;
+  background-color: #eaeaea;
+}
+.container-fluid .bg-container {
+  height: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 0px 19px -1px rgba(124, 118, 118, 0.5);
+}
+.container-fluid .bg-container .name-create-invoice {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .row .form-group label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-fluid .bg-container .row .form-group .form-input {
+  position: relative;
+}
+.container-fluid .bg-container .row .form-group .form-input input,
+.container-fluid .bg-container .row .form-group .form-input select {
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .row .form-group .form-input .icon-input,
+.container-fluid .bg-container .row .form-group .form-input .icon-input-error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 3px 12px;
+  height: 100%;
+}
+.container-fluid .bg-container .row .form-group .form-input .icon-input {
+  background-color: #eaeaea;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.container-fluid .bg-container .row .form-group .form-input #success,
+.container-fluid .bg-container .row .form-group .form-input #error {
+  display: none;
+}
+.container-fluid .bg-container .container-table {
+  margin-top: 50px;
+  padding: 0 22px;
+}
+.container-fluid .bg-container .container-table .table thead tr .w-90,
+.container-fluid .bg-container .container-table .table tbody tr .w-90 {
+  width: 90px;
+  max-width: 100%;
+}
+.container-fluid .bg-container .container-table .table thead tr .p-10,
+.container-fluid .bg-container .container-table .table tbody tr .p-10 {
+  padding: 10px;
+}
+.container-fluid .bg-container .container-table .table thead tr th {
+  color: var(--text-color);
+}
+.container-fluid .bg-container .container-table .table tbody tr td {
+  color: var(--text-primary);
+}
+.container-fluid .bg-container .container-table .table tbody tr td .form-select {
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .container-table .table tbody tr td input {
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .container-table .table tbody tr td i {
+  color: var(--text-primary);
+  padding: 7px;
+  width: 100%;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.container-fluid .bg-container .container-table .table tbody tr td i:hover {
+  color: #0391e8;
+}
+.container-fluid .bg-container .row .col-left {
+  background-color: #eaeaea;
+  padding: 20px 40px;
+  border-radius: 5px;
+  height: 100%;
+}
+.container-fluid .bg-container .row .col-left .form-group .form-input .icon-input {
+  background-color: #bebebe;
+}
+.container-fluid .bg-container .row .col-left .form-group .form-textarea textarea {
+  padding: 10px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.container-fluid .bg-container .row .col-right {
+  background-color: #eaeaea;
+  padding: 20px 40px;
+  border-radius: 10px;
+  height: 100%;
+}
+.container-fluid .bg-container .row .col-right .col-item {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.container-fluid .bg-container .row .col-right .col-item .money-bill {
+  color: var(--text-color) !important;
+}
+.container-fluid .bg-container .row .col-right .col-item .label-item {
+  font-weight: 500;
+  color: #7f7d7d;
+}
+.container-fluid .bg-container .row .col-right .col-item .money-item {
+  color: var(--text-primary);
+}
+.container-fluid .bg-container .row .col-right .col-item .form-input {
+  position: relative;
+  width: 100%;
+}
+.container-fluid .bg-container .row .col-right .col-item .form-input input,
+.container-fluid .bg-container .row .col-right .col-item .form-input select {
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .row .col-right .col-item .form-input .icon-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6rem;
+  color: #999;
+  padding: 3px 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
+  background-color: #bebebe;
+}
+.container-fluid .bg-container .btn {
+  padding: 6px 26px;
+  font-size: 1.4rem;
+}
+.container-fluid .bg-container .btn-cancel {
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.container-fluid .bg-container .btn-cancel:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+.container-fluid .bg-container .btn-create {
+  background: var(--primary);
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+.container-fluid .bg-container .btn-create:hover {
+  box-shadow: 3px 3px #0391e8, -1em 0 0.4em #0050ae;
+}

@@ -1,0 +1,52 @@
+.container-form .cascading-right {
+  margin-right: -50px;
+}
+.container-form .cascading-right .card-body {
+  width: 420px;
+  margin: 0 auto;
+}
+.container-form .cascading-right .card-body h2 {
+  color: var(--text-primary);
+}
+.container-form .cascading-right .card-body form {
+  position: relative;
+}
+.container-form .cascading-right .card-body form .form-outline {
+  position: relative;
+}
+.container-form .cascading-right .card-body form .form-outline input {
+  font-size: 1.6rem;
+}
+.container-form .cascading-right .card-body form .form-outline label {
+  font-size: 1.8rem;
+}
+.container-form .cascading-right .card-body form .form-outline .eye {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+.container-form .cascading-right .card-body form .form-outline .eye-see {
+  display: none;
+}
+.container-form .cascading-right .card-body form .btn-login {
+  font-size: 1.6rem;
+  color: var(--white);
+  border: none;
+  background: var(--primary);
+}
+.container-form .cascading-right .card-body form .login-more {
+  margin-top: 50px;
+}
+.container-form .cascading-right .card-body form .link-register {
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  text-decoration: underline !important;
+}
+@media (max-width: 991.98px) {
+  .container-form .cascading-right {
+    margin-right: 0;
+  }
+}
